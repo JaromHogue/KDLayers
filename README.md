@@ -11,7 +11,7 @@ are matricization and vectorization functions repectively for appropriate dimens
 the layer is "split" into dual layers, each with separate activation and bias terms, to increase predictive capabilities while reducing the required Kronecker 
 rank.  The order in which the layers are implemented doesn't appear to effect the training accuracy or timing, since $L(XR) = (LX)R$ before adding additional 
 bias and activation terms are added.  A full description is available in the ArXiv preprint: 
-[Dimensionality Reduction in Deep Learning via Kronecker Multi-layer Architectures](https://arxiv.org/abs/2204.04273)
+[Dimensionality Reduction in Deep Learning via Kronecker Multi-layer Architectures](https://arxiv.org/abs/2204.04273) by Jarom D. Hogue, Robert M. Kriby and Akil Narayan.
 
 ## Code
 
@@ -21,12 +21,9 @@ Included are three files:
 * KDL_mnist_example: standalone example python notebook comparing KDL neural net (rank 1 and 2) with an FNN for the MNIST dataset.
 * KDL_cifar10_example: standalone example python notenook comparing CNN's using KDL's (rank 1 and 4) with a CNN using dense layers for the cifar10 dataset.
 
-## Contributors
+## Contributor
 
 * Jarom D. Hogue: [jdhogue@sci.utah.edu](mailto:jdhogue@sci.utah.edu)
-* Robert M. Kirby: [kirby@sc.utah.edu](mailto:kirby@sc.utah.edu)
-* Akil Narayan: [akil@sci.utah.edu](mailto:akil@sci.utah.edu)
-
 
 ## Liscense
 
